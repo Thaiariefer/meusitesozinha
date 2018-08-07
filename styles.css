@@ -1,11 +1,11 @@
 body{
     margin: 0;
-    background-color: darkgrey;
+    background-color: rgb(247, 247, 247);
     font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2{
-    color: fuchsia;
+    color: rgb(0, 255, 115);
     text-align: center;
     font-weight: 800;
 }
@@ -16,20 +16,58 @@ header{
     align-items: center;
     justify-content: center;
     height: 100px;
-        }
+    margin-left: 10px;
+    background-color: aliceblue;
+    
+}
+.menu a{
+font-size: 20px;
+color: rgb(255, 230, 0);
+padding-right: 15px
+
+}
+
+.menu img{
+    height: 100px;
+    width: 60px;
+    margin: 200px;
+    display: flex;
+    justify-content: flex-end;
+    float:right;
+    padding-right: 15px;
+}
 
 p{
     margin-left: 10px;
 }
 
+legend{
+color: rgb(0, 89, 255);
+font-size: 15px;
+font-style: italic;
+}
+
+rodape{
+    background-color: rgb(20, 117, 93);
+    display: flex;
+    height: 10px;
+
+}
+#GATO{
+    width: 150px;
+}
+
+especial{
+    border: solid black 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px
+}
+
 button{
     border: solid blue 2px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10%;
     padding: 10px;
     color: blue;
-
-
-
-
 }
